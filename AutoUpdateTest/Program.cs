@@ -12,11 +12,16 @@ namespace AutoUpdateTest
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
+            Updater.GitHubRepo = "/erwinjrivera/AutoUpdateTest";
+
+            if (Updater.AutoUpdate(args))
+                return;
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1(args));
         }
     }
 }
