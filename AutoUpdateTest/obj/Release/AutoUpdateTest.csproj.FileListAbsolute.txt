@@ -1,0 +1,9 @@
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\bin\Release\AutoUpdateTest.exe.config
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\bin\Release\AutoUpdateTest.exe
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\bin\Release\AutoUpdateTest.pdb
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Release\AutoUpdateTest.Form1.resources
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Release\AutoUpdateTest.Properties.Resources.resources
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Release\AutoUpdateTest.csproj.GenerateResource.cache
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Release\AutoUpdateTest.csproj.CoreCompileInputs.cache
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Release\AutoUpdateTest.exe
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Release\AutoUpdateTest.pdb

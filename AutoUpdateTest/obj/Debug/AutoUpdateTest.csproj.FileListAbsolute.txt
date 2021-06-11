@@ -1,9 +1,9 @@
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\bin\Debug\AutoUpdateTest.exe.config
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\bin\Debug\AutoUpdateTest.exe
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\bin\Debug\AutoUpdateTest.pdb
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.Form1.resources
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.Properties.Resources.resources
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.csproj.GenerateResource.cache
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.csproj.CoreCompileInputs.cache
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.exe
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.pdb
-C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.Form1.resources

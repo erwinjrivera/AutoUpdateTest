@@ -16,8 +16,12 @@ namespace AutoUpdateTest
         {
             Updater.GitHubRepo = "/erwinjrivera/AutoUpdateTest";
 
+            //Updater.Update(new Version(1, 0, 0, 1));
+      
             if (Updater.AutoUpdate(args))
                 return;
+
+
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

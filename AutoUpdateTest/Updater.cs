@@ -66,12 +66,13 @@ namespace AutoUpdateTest
 
 			Regex urlMatcher = new Regex(pattern, RegexOptions.CultureInvariant | RegexOptions.Compiled);
 			var result = new Dictionary<Version, Uri>();
-			WebRequest wrq = WebRequest.Create(string.Concat("https://github.com", GitHubRepo, "/releases/latest"));
+			WebRequest wrq = WebRequest.Create(string.Concat("https://github.com", GitHubRepo, "/releases"));
 			WebResponse wrs = null;
 			try
 			{
 				wrs = wrq.GetResponse();
-			}
+
+			}	
 			catch (Exception ex)
 			{
 				Debug.WriteLine("Error fetching repo: " + ex.Message);
@@ -79,6 +80,9 @@ namespace AutoUpdateTest
 			}
 			using (var sr = new StreamReader(wrs.GetResponseStream()))
 			{
+
+				//String responseString = sr.ReadToEnd();
+
 				string line;
 				while (null != (line = sr.ReadLine()))
 				{
@@ -145,22 +149,29 @@ namespace AutoUpdateTest
 			}
 			if (null != exename)
 			{
-				var psi = new ProcessStartInfo();
-				var sb = new StringBuilder();
-				sb.Append(_Esc(Assembly.GetEntryAssembly().GetModules()[0].Name));
-				sb.Append(' ');
-				sb.Append(_Esc(_VersionUrls[version].ToString()));
-				if (null != args)
+				try
 				{
-					for (var i = 0; i < args.Length; ++i)
+					var psi = new ProcessStartInfo();
+					var sb = new StringBuilder();
+					sb.Append(_Esc(Assembly.GetEntryAssembly().GetModules()[0].Name));
+					sb.Append(' ');
+					sb.Append(_Esc(_VersionUrls[version].ToString()));
+					if (null != args)
 					{
-						sb.Append(' ');
-						sb.Append(_Esc(args[i]));
+						for (var i = 0; i < args.Length; ++i)
+						{
+							sb.Append(' ');
+							sb.Append(_Esc(args[i]));
+						}
 					}
+					psi.Arguments = sb.ToString();
+					psi.FileName = exename;
+					var proc = Process.Start(psi);
 				}
-				psi.Arguments = sb.ToString();
-				psi.FileName = exename;
-				var proc = Process.Start(psi);
+				catch (System.Collections.Generic.KeyNotFoundException ex)
+                {
+					Debug.WriteLine(ex.Message);
+                }
 			}
 
 		}
