@@ -35,5 +35,10 @@ namespace AutoUpdateTest
         {
             return string.Concat("\"", arg.Replace("\"", "\"\""), "\"");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,6 +29,7 @@ namespace AutoUpdateTest
 				{
 					var name = names[i];
 					if (name.Contains(".ZZupdater0."))
+					//if (name.Contains("ZZupdater0"))
 					{
 						try
 						{

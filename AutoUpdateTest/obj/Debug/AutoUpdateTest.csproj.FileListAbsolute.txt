@@ -7,3 +7,4 @@ C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTe
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.csproj.CoreCompileInputs.cache
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.exe
 C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.pdb
+C:\Users\Kris\Documents\Git\AutoUpdateTest\AutoUpdateTest\obj\Debug\AutoUpdateTest.csproj.AssemblyReference.cache
